@@ -1,0 +1,105 @@
+/* line 1, /Users/yonglee/Dropbox/projects/keyboardsoundeffects/scss/main.scss */
+html {
+  box-sizing: border-box;
+  background-image: url(https://i.imgur.com/IzD7JpH.jpg);
+  background-size: cover;
+}
+
+/* line 7, /Users/yonglee/Dropbox/projects/keyboardsoundeffects/scss/main.scss */
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+/* line 11, /Users/yonglee/Dropbox/projects/keyboardsoundeffects/scss/main.scss */
+h1,
+h3 {
+  font-family: "Noto Sans", sans-serif;
+  margin: 0 auto;
+  text-align: center;
+  width: 80%;
+  color: rgba(255, 255, 255, 0.75);
+}
+
+/* line 20, /Users/yonglee/Dropbox/projects/keyboardsoundeffects/scss/main.scss */
+h1 {
+  padding-top: 50px;
+  font-size: 5em;
+  width: 80vw;
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: .05em;
+}
+
+/* line 29, /Users/yonglee/Dropbox/projects/keyboardsoundeffects/scss/main.scss */
+h3 {
+  margin-bottom: 1.5em;
+}
+
+/* line 33, /Users/yonglee/Dropbox/projects/keyboardsoundeffects/scss/main.scss */
+.keys-group {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  width: 90%;
+  margin: 125px auto 0;
+}
+
+@media screen and (max-width: 900px) {
+  /* line 42, /Users/yonglee/Dropbox/projects/keyboardsoundeffects/scss/main.scss */
+  .keys-group {
+    margin-top: 0;
+  }
+}
+
+/* line 47, /Users/yonglee/Dropbox/projects/keyboardsoundeffects/scss/main.scss */
+.key {
+  width: 250px;
+  height: 250px;
+  position: relative;
+  background: rgba(255, 255, 255, 0);
+  margin-bottom: 1em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* line 57, /Users/yonglee/Dropbox/projects/keyboardsoundeffects/scss/main.scss */
+.key img {
+  width: 250px;
+  background-size: contain;
+  opacity: .85;
+}
+
+/* line 64, /Users/yonglee/Dropbox/projects/keyboardsoundeffects/scss/main.scss */
+kbd {
+  position: absolute;
+  padding: 0 .5em;
+  font-size: 48px;
+  background: rgba(255, 255, 255, 0.75);
+  color: tomato;
+}
+
+/* line 73, /Users/yonglee/Dropbox/projects/keyboardsoundeffects/scss/main.scss */
+.key-background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: auto;
+  z-index: -1;
+  opacity: .7;
+}
+
+/* line 83, /Users/yonglee/Dropbox/projects/keyboardsoundeffects/scss/main.scss */
+.inception {
+  background: url(https://media.giphy.com/media/7wiAKLUnFMkRG/giphy.gif);
+}
+
+/* line 87, /Users/yonglee/Dropbox/projects/keyboardsoundeffects/scss/main.scss */
+.playing {
+  transform: scale(1.1);
+  outline: 3px solid red;
+}
+
+/*# sourceMappingURL=../css/main.map */
