@@ -4,4 +4,7 @@ I thought about sitting in long, boring meetings, and that they could be be more
 
 Using JavaScript to listen for certain keys to be hit, which will be tied to specific sounds.
 
-You can read the blog post here.[add link]
+
+You can read my [blog post about it here](http://yongclee.com/sound-effects-keyboard/).
+
+You can view it on [Github pages here](https://whyohengee.github.io/keyboarddrama/).
